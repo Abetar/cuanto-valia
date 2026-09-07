@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "tortilla",
+      "name": "Tortilla de maíz",
+      "unit": "kg",
+      "source": {
+        "name": "SNIIM",
+        "methodology": "Promedio nacional",
+        "updatedAt": "2026-09-06"
+      },
+      "firstYear": 2007,
+      "lastYear": 2026,
+      "prices": {
+        "2007": 8.70,
+        "2008": 9.20,
+        "2025": 23.50,
+        "2026": 24.10
+      }
+    }
+  ]
+}

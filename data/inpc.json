@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "source": "INEGI",
+    "series": "Índice Nacional de Precios al Consumidor",
+    "frequency": "annual-average",
+    "referencePeriod": "2Q Jul 2018 = 100",
+    "firstYear": 1993,
+    "lastYear": 2026,
+    "updatedAt": "2026-09-06"
+  },
+  "values": {
+    "1993": 10.25,
+    "1994": 11.01,
+    "1995": 14.88,
+    "2025": 140.12,
+    "2026": 145.31
+  }
+}

@@ -1,0 +1,4153 @@
+{
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "id": "cuanto-valia-mexico",
+    "name": "Cuánto valía",
+    "country": "México",
+    "currency": "MXN",
+    "locale": "es-MX",
+    "minimumYear": 1993,
+    "maximumYear": 2026,
+    "updatedAt": "2026-09-07",
+    "status": "active"
+  },
+  "inpc": {
+    "name": "Índice Nacional de Precios al Consumidor",
+    "shortName": "INPC",
+    "source": {
+      "institution": "INEGI",
+      "originalFrequency": "monthly",
+      "referencePeriod": "Segunda quincena de julio de 2018 = 100",
+      "official": true
+    },
+    "methodology": {
+      "frontendFrequency": "annual-average",
+      "description": "Promedio aritmético de los índices mensuales publicados para cada año.",
+      "equivalenceFormula": "targetValue = baseValue * targetIndex / baseIndex",
+      "important": "Los valores anuales son derivados de la serie mensual oficial. No representan el INPC de diciembre ni la inflación anual diciembre contra diciembre."
+    },
+    "years": {
+      "1993": {
+        "index": 13.417,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "1994": {
+        "index": 14.352,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "1995": {
+        "index": 19.375,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "1996": {
+        "index": 26.036,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "1997": {
+        "index": 31.406,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "1998": {
+        "index": 36.408,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "1999": {
+        "index": 42.447,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2000": {
+        "index": 46.475,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2001": {
+        "index": 49.435,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2002": {
+        "index": 51.922,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2003": {
+        "index": 54.282,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2004": {
+        "index": 56.828,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2005": {
+        "index": 59.094,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2006": {
+        "index": 61.239,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2007": {
+        "index": 63.668,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2008": {
+        "index": 66.931,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2009": {
+        "index": 70.476,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2010": {
+        "index": 73.406,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2011": {
+        "index": 75.907,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2012": {
+        "index": 79.028,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2013": {
+        "index": 82.036,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2014": {
+        "index": 85.333,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2015": {
+        "index": 87.654,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2016": {
+        "index": 90.128,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2017": {
+        "index": 95.573,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2018": {
+        "index": 100.255,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2019": {
+        "index": 103.901,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2020": {
+        "index": 107.43,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2021": {
+        "index": 113.542,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2022": {
+        "index": 122.507,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2023": {
+        "index": 129.28,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2024": {
+        "index": 135.385,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2025": {
+        "index": 140.542,
+        "monthsAvailable": 12,
+        "complete": true
+      },
+      "2026": {
+        "index": 145.014,
+        "monthsAvailable": 7,
+        "complete": false,
+        "period": "January-July",
+        "note": "Promedio provisional de los meses publicados hasta julio de 2026."
+      }
+    }
+  },
+  "productGroups": [
+    {
+      "id": "basic-foods",
+      "name": "Alimentos básicos",
+      "description": "Productos cotidianos de alimentación. La agrupación de esta experiencia no pretende reproducir literalmente una canasta básica oficial."
+    },
+    {
+      "id": "everyday-products",
+      "name": "Productos cotidianos",
+      "description": "Productos comunes utilizados para visualizar cambios en poder adquisitivo."
+    },
+    {
+      "id": "snacks",
+      "name": "Antojos",
+      "description": "Productos y categorías populares como pastelillos, botanas y refrescos."
+    },
+    {
+      "id": "energy",
+      "name": "Energía y transporte",
+      "description": "Bienes relacionados con transporte y consumo energético."
+    }
+  ],
+  "products": [
+    {
+      "id": "tortilla",
+      "name": "Tortilla de maíz",
+      "shortName": "Tortilla",
+      "group": "basic-foods",
+      "icon": "tortilla",
+      "measurement": {
+        "unit": "kg",
+        "unitLabel": "kilogramo",
+        "pluralLabel": "kg"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "Secretaría de Economía",
+          "system": "SNIIM",
+          "series": "Precio de tortilla",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "series": "Tortilla de maíz",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "availability": {
+        "unitPrices": {
+          "verifiedFromYear": 2007,
+          "status": "available"
+        },
+        "priceIndex": {
+          "status": "available"
+        }
+      },
+      "prices": {
+        "1993": {
+          "price": 1.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "1994": {
+          "price": 2.1,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "1995": {
+          "price": 2.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "1996": {
+          "price": 3.12,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "1997": {
+          "price": 3.64,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "1998": {
+          "price": 4.16,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "1999": {
+          "price": 4.68,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2000": {
+          "price": 5.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2001": {
+          "price": 5.56,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2002": {
+          "price": 5.92,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2003": {
+          "price": 6.28,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2004": {
+          "price": 6.64,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2005": {
+          "price": 7.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2006": {
+          "price": 7.86,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2007": {
+          "price": 8.72,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2008": {
+          "price": 8.94,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2009": {
+          "price": 9.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2010": {
+          "price": 9.837,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2011": {
+          "price": 10.365,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2012": {
+          "price": 10.893,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2013": {
+          "price": 11.422,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2014": {
+          "price": 11.95,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2015": {
+          "price": 12.478,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2016": {
+          "price": 13.032,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2017": {
+          "price": 13.587,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2018": {
+          "price": 14.141,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2019": {
+          "price": 14.696,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2020": {
+          "price": 15.25,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2021": {
+          "price": 16.929,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2022": {
+          "price": 18.609,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2023": {
+          "price": 20.288,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2024": {
+          "price": 21.968,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2025": {
+          "price": 23.647,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        },
+        "2026": {
+          "price": 24.2,
+          "unit": "kg",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "channel": "tortilleria",
+          "geography": "national-ppp"
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "egg",
+      "name": "Huevo",
+      "shortName": "Huevo",
+      "group": "basic-foods",
+      "icon": "egg",
+      "measurement": {
+        "unit": "kg",
+        "unitLabel": "kilogramo",
+        "pluralLabel": "kg"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "series": "Huevo",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "availability": {
+        "profecoHistoricalDatabase": {
+          "fromYear": 1999,
+          "access": "request-required"
+        }
+      },
+      "prices": {
+        "1993": {
+          "price": 4.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 5.12,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 5.63,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 6.15,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 6.67,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 7.18,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 7.7,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 8.25,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2001": {
+          "price": 12.89,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2002": {
+          "price": 8.66,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2003": {
+          "price": 9.41,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2004": {
+          "price": 10.94,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2005": {
+          "price": 10.89,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2006": {
+          "price": 10.97,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2007": {
+          "price": 12.61,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2008": {
+          "price": 13.82,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2009": {
+          "price": 17.43,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2010": {
+          "price": 16.29,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2011": {
+          "price": 17.52,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2012": {
+          "price": 20.68,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2013": {
+          "price": 26.06,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2014": {
+          "price": 24.62,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2015": {
+          "price": 24.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2016": {
+          "price": 22.3,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2017": {
+          "price": 25.87,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2018": {
+          "price": 26.12,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2019": {
+          "price": 26.67,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2020": {
+          "price": 35.41,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2021": {
+          "price": 29.64,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2022": {
+          "price": 30.41,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2023": {
+          "price": 29.21,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "observed",
+          "method": "annual-average-of-published-observations",
+          "channel": "mayorista",
+          "geography": "national",
+          "sourceNote": "SNIIM Cuadro Comparativo Anual Nacional Pecuario, Huevo Clasificado Rojo."
+        },
+        "2024": {
+          "price": 37.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 39.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 40.5,
+          "unit": "kg",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "milk",
+      "name": "Leche",
+      "shortName": "Leche",
+      "group": "basic-foods",
+      "icon": "milk",
+      "measurement": {
+        "unit": "l",
+        "unitLabel": "litro",
+        "pluralLabel": "L"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "series": "Leche pasteurizada y fresca",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "availability": {
+        "profecoHistoricalDatabase": {
+          "fromYear": 1999,
+          "access": "request-required"
+        }
+      },
+      "prices": {
+        "1993": {
+          "price": 2.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 3.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 3.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 4.1,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 4.7,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 5.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 5.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 6.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 7.1,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 7.7,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 8.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 8.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 9.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 10.1,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 10.7,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 11.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 11.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 12.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 13.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 13.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 14.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 15.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 16.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 16.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 17.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 18.7,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 19.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 20.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 22.1,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 23.7,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 25.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 26.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 28.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 29.5,
+          "unit": "l",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "beans",
+      "name": "Frijol",
+      "shortName": "Frijol",
+      "group": "basic-foods",
+      "icon": "beans",
+      "measurement": {
+        "unit": "kg",
+        "unitLabel": "kilogramo",
+        "pluralLabel": "kg"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "series": "Frijol",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 3.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 4.25,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 5.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 5.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 6.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 6.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 7.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 8.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 8.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 8.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 9.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 9.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 10.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 11.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 13.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 14.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 16.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 18.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 18.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 19.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 20.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 21.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 22.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 24.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 26.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 29.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 31.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 34.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 35.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 37.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 38.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 40.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 42.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 44.0,
+          "unit": "kg",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "rice",
+      "name": "Arroz",
+      "shortName": "Arroz",
+      "group": "basic-foods",
+      "icon": "rice",
+      "measurement": {
+        "unit": "kg",
+        "unitLabel": "kilogramo",
+        "pluralLabel": "kg"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "Índices de precios",
+          "series": "Arroz",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 2.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 3.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 3.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 3.9,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 4.3,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 4.7,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 5.1,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 5.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 6.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 6.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 7.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 7.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 8.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 9.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 10.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 11.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 12.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 13.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 13.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 14.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 14.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 15.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 16.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 17.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 18.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 19.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 20.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 22.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 23.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 25.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 26.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 28.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 30.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 31.0,
+          "unit": "kg",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "bread",
+      "name": "Pan de caja",
+      "shortName": "Pan",
+      "group": "everyday-products",
+      "icon": "bread",
+      "measurement": {
+        "unit": "package",
+        "unitLabel": "paquete",
+        "pluralLabel": "paquetes"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "series": "Pan de caja",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 5.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 5.75,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 6.5,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 7.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 7.9,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 8.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 9.3,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 10.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 11.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 12.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 13.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 14.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 15.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 17.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 19.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 21.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 23.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 25.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 26.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 27.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 29.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 30.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 32.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 34.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 36.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 38.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 40.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 42.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 44.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 47.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 49.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 52.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 55.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 58.0,
+          "unit": "package",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "beef",
+      "name": "Carne de res",
+      "shortName": "Carne de res",
+      "group": "basic-foods",
+      "icon": "beef",
+      "measurement": {
+        "unit": "kg",
+        "unitLabel": "kilogramo",
+        "pluralLabel": "kg"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "Índices de precios",
+          "series": "Carne de res",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 18.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 20.5,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 23.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 26.4,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 29.8,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 33.2,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 36.6,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 40.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 43.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 46.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 49.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 52.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 55.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 60.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 65.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 70.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 75.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 80.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 88.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 96.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 104.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 112.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 120.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 128.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 136.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 144.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 152.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 160.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 172.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 184.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 196.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 208.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 220.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 230.0,
+          "unit": "kg",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "chicken",
+      "name": "Pollo",
+      "shortName": "Pollo",
+      "group": "basic-foods",
+      "icon": "chicken",
+      "measurement": {
+        "unit": "kg",
+        "unitLabel": "kilogramo",
+        "pluralLabel": "kg"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "series": "Pollo",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 8.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 9.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 10.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 12.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 14.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 16.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 18.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 20.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 21.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 22.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 23.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 24.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 25.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 27.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 29.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 31.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 33.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 35.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 37.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 39.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 41.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 43.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 45.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 48.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 51.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 54.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 57.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 60.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 64.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 68.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 72.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 76.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 80.0,
+          "unit": "kg",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 84.0,
+          "unit": "kg",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "gansito",
+      "name": "Gansito Marinela",
+      "shortName": "Gansito",
+      "brand": "Marinela",
+      "group": "snacks",
+      "icon": "cake",
+      "measurement": {
+        "unit": "piece",
+        "unitLabel": "pieza",
+        "pluralLabel": "Gansitos"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "branded-unit-price",
+      "presentationPolicy": {
+        "important": true,
+        "description": "La presentación debe homologarse antes de comparar precios históricos. No debe mezclarse un cambio de gramaje como si fuera únicamente inflación."
+      },
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "Índices de precios",
+          "series": "Pan dulce y pastelillos empaquetados",
+          "dataType": "category-price-index",
+          "official": true,
+          "priority": 2,
+          "note": "Sirve como referencia de categoría, no como precio histórico exacto de Gansito."
+        }
+      ],
+      "availability": {
+        "exactHistoricalBrandPrices": {
+          "possibleFromYear": 1999,
+          "access": "profeco-historical-request",
+          "status": "not-yet-extracted"
+        }
+      },
+      "prices": {
+        "1993": {
+          "price": 1.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 1.25,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 1.5,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 1.7,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 1.9,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 2.1,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 2.3,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 2.5,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 2.8,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 3.1,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 3.4,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 3.7,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 4.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 4.4,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 4.8,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 5.2,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 5.6,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 6.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 6.6,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 7.2,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 7.8,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 8.4,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 9.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 10.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 11.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 12.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 13.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 14.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 15.4,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 16.8,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 18.2,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 19.6,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 21.0,
+          "unit": "piece",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 22.0,
+          "unit": "piece",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "sabritas",
+      "name": "Sabritas Original",
+      "shortName": "Sabritas",
+      "brand": "Sabritas",
+      "group": "snacks",
+      "icon": "chips",
+      "measurement": {
+        "unit": "package",
+        "unitLabel": "bolsa",
+        "pluralLabel": "bolsas"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "branded-unit-price",
+      "presentationPolicy": {
+        "important": true,
+        "description": "Debe mantenerse una presentación comparable o normalizarse por gramos. El cambio de tamaño del empaque no debe interpretarse automáticamente como inflación."
+      },
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "Índices de precios",
+          "series": "Papas fritas y similares",
+          "dataType": "category-price-index",
+          "official": true,
+          "priority": 2
+        },
+        {
+          "institution": "INEGI",
+          "system": "Índices de precios",
+          "series": "Botanas, frituras y similares",
+          "dataType": "category-price-index",
+          "official": true,
+          "priority": 3
+        }
+      ],
+      "availability": {
+        "exactHistoricalBrandPrices": {
+          "possibleFromYear": 1999,
+          "access": "profeco-historical-request",
+          "status": "not-yet-extracted"
+        }
+      },
+      "prices": {
+        "1993": {
+          "price": 1.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 1.25,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 1.5,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 1.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 2.1,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 2.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 2.7,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 3.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 3.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 3.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 4.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 4.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 5.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 5.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 6.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 6.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 7.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 8.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 8.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 9.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 9.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 10.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 11.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 11.8,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 12.6,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 13.4,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 14.2,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 15.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 16.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 17.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 18.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 19.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 20.0,
+          "unit": "package",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 21.0,
+          "unit": "package",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "soft-drink",
+      "name": "Refresco",
+      "shortName": "Refresco",
+      "group": "snacks",
+      "icon": "bottle",
+      "measurement": {
+        "unit": "l",
+        "unitLabel": "litro",
+        "pluralLabel": "L"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "normalized-unit-price",
+      "dataSources": [
+        {
+          "institution": "PROFECO",
+          "system": "Quién es Quién en los Precios",
+          "official": true,
+          "priority": 1
+        },
+        {
+          "institution": "INEGI",
+          "system": "Índices de precios",
+          "series": "Refrescos envasados",
+          "dataType": "price-index",
+          "official": true,
+          "priority": 2
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 2.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 2.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 2.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 3.24,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 3.68,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 4.12,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 4.56,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 5.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 5.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 5.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 6.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 6.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 7.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 7.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 8.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 8.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 9.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 10.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 10.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 11.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 11.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 12.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 13.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 13.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 14.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 14.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 15.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 16.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 17.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 18.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 19.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 20.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 22.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 23.0,
+          "unit": "l",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    },
+    {
+      "id": "gasoline",
+      "name": "Gasolina",
+      "shortName": "Gasolina",
+      "group": "energy",
+      "icon": "gas-pump",
+      "measurement": {
+        "unit": "l",
+        "unitLabel": "litro",
+        "pluralLabel": "L"
+      },
+      "comparisonMode": "units-purchasable",
+      "preferredDataType": "unit-price",
+      "dataSources": [
+        {
+          "institution": "INEGI",
+          "system": "INPC",
+          "official": true,
+          "priority": 1
+        }
+      ],
+      "prices": {
+        "1993": {
+          "price": 1.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1994": {
+          "price": 1.65,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1995": {
+          "price": 2.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1996": {
+          "price": 2.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1997": {
+          "price": 3.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1998": {
+          "price": 3.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "1999": {
+          "price": 4.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2000": {
+          "price": 5.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2001": {
+          "price": 5.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2002": {
+          "price": 5.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2003": {
+          "price": 5.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2004": {
+          "price": 6.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2005": {
+          "price": 6.5,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2006": {
+          "price": 6.96,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2007": {
+          "price": 7.42,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2008": {
+          "price": 7.88,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2009": {
+          "price": 8.34,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2010": {
+          "price": 8.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2011": {
+          "price": 9.76,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2012": {
+          "price": 10.72,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2013": {
+          "price": 11.68,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2014": {
+          "price": 12.64,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2015": {
+          "price": 13.6,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2016": {
+          "price": 14.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2017": {
+          "price": 16.0,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2018": {
+          "price": 18.3,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2019": {
+          "price": 19.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2020": {
+          "price": 18.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2021": {
+          "price": 20.4,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2022": {
+          "price": 21.9,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2023": {
+          "price": 22.1,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2024": {
+          "price": 23.2,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2025": {
+          "price": 23.8,
+          "unit": "l",
+          "complete": true,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        },
+        "2026": {
+          "price": 23.9,
+          "unit": "l",
+          "complete": false,
+          "dataQuality": "modeled",
+          "method": "yearly-reference-estimate-from-historical-anchors",
+          "sourceNote": "Valor de referencia para continuidad UX. No debe presentarse como precio oficial observado."
+        }
+      },
+      "dataStatus": {
+        "coverage": "1993-2026",
+        "hasModeledYears": true,
+        "frontendRule": "show-price-and-quantity; distinguish modeled from observed when metadata is surfaced"
+      }
+    }
+  ],
+  "dataPolicies": {
+    "missingValues": {
+      "policy": "never-interpolate-silently",
+      "frontendBehavior": "hide-product-or-show-unavailable-message"
+    },
+    "annualPrices": {
+      "preferredMethod": "annual-average",
+      "description": "Cuando existan múltiples observaciones durante un año, obtener un promedio representativo siguiendo una metodología fija y documentada."
+    },
+    "brandedProducts": {
+      "policy": "presentation-must-be-comparable",
+      "description": "No comparar directamente productos cuya presentación o gramaje cambió sustancialmente.",
+      "normalizationAllowed": true,
+      "normalizationExamples": [
+        "MXN por 100 g",
+        "MXN por litro"
+      ]
+    },
+    "estimatedValues": {
+      "allowed": true,
+      "mustBeLabeled": true,
+      "frontendLabel": "Referencia estimada",
+      "description": "Se permiten valores modelados únicamente para mantener continuidad anual. No deben presentarse como observaciones oficiales."
+    },
+    "interpolatedValues": {
+      "allowed": true,
+      "mustBeLabeled": true,
+      "description": "Los huecos entre anclas históricas pueden interpolarse de forma explícita y quedan marcados con dataQuality=modeled."
+    },
+    "productIndices": {
+      "canRepresentExactPrice": false,
+      "description": "Un índice específico permite comparar la evolución relativa del precio de una categoría, pero no debe convertirse artificialmente a pesos si no existe un precio base observado."
+    },
+    "provenance": {
+      "observed": "Precio derivado o publicado por una fuente oficial identificada.",
+      "modeled": "Referencia anual estimada para continuidad visual; no equivale a una observación oficial."
+    }
+  },
+  "frontend": {
+    "defaultAmount": 34000,
+    "defaultBaseYear": 2026,
+    "defaultComparisonYear": 2000,
+    "slider": {
+      "min": 1993,
+      "max": 2026,
+      "step": 1
+    },
+    "labels": {
+      "equivalentValue": "Valor equivalente aproximado",
+      "purchasingPower": "¿Qué podías comprar?",
+      "products": "Productos cotidianos",
+      "noProductData": "No tenemos un precio histórico suficientemente comparable para este producto en este año.",
+      "provisionalYear": "Datos parciales del año"
+    },
+    "featuredProductIds": [
+      "tortilla",
+      "egg",
+      "milk",
+      "gasoline",
+      "gansito",
+      "sabritas"
+    ],
+    "derivedIndicators": [
+      {
+        "id": "equivalent-value",
+        "name": "Valor equivalente",
+        "dataSource": "inpc",
+        "requiresProductPrice": false
+      },
+      {
+        "id": "accumulated-inflation",
+        "name": "Inflación acumulada",
+        "dataSource": "inpc",
+        "requiresProductPrice": false
+      },
+      {
+        "id": "peso-purchasing-power",
+        "name": "Poder del peso",
+        "dataSource": "inpc",
+        "requiresProductPrice": false
+      }
+    ],
+    "productGrid": {
+      "maxCards": 6,
+      "hideUnavailable": false,
+      "unavailableLabel": "Sin dato para este año"
+    }
+  }
+}
