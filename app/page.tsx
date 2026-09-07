@@ -548,6 +548,18 @@ export default function Home() {
                       <p className="mt-1 max-w-full break-words text-4xl font-black tracking-[-0.055em] text-[#26333c] sm:text-6xl">
                         {currencyFormatter.format(equivalentValue)}
                       </p>
+
+                      <p className="mt-3 max-w-xl text-xs leading-5 text-[#71808a] sm:text-sm">
+                        En {selectedYear} necesitabas aproximadamente{" "}
+                        <strong className="font-bold text-[#4b5962]">
+                          {currencyFormatter.format(equivalentValue)}
+                        </strong>{" "}
+                        para tener el mismo poder adquisitivo general que{" "}
+                        <strong className="font-bold text-[#4b5962]">
+                          {currencyFormatter.format(amount)}
+                        </strong>{" "}
+                        en {baseYear}.
+                      </p>
                     </div>
 
                     <div className="w-full min-w-0 max-w-full rounded border border-[#9dbb5a] bg-[#f2f9df] px-4 py-2 text-right sm:w-auto sm:min-w-[150px]">
@@ -1096,7 +1108,9 @@ function SidebarStat({ label, value }: { label: string; value: string }) {
     <div className="flex items-center justify-between gap-3 px-3 py-2.5">
       <span className="text-[11px] text-[#7d8990]">{label}</span>
 
-      <span className="min-w-0 max-w-[55%] truncate text-right text-xs font-bold text-[#43515a]">{value}</span>
+      <span className="min-w-0 max-w-[55%] truncate text-right text-xs font-bold text-[#43515a]">
+        {value}
+      </span>
     </div>
   );
 }
